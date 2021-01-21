@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+.test{
+    background:green;
+}
+textarea {
+    resize: none;
+}
+form{
+    display: flex;
+    place-content: center;
+    
+}
+fieldset{
+    background: green;
+    width: 555px;
+}
+    legend{
+        color: black;
+        font-size: 44px;
+        text-align: center;
+    }
+
+fieldset div,
+fieldset button,
+fieldset input,
+fieldset textarea{
+    margin: 5px;
+    padding: 5px;
+}
